@@ -12,7 +12,7 @@ namespace Ambitos
         public int edad;
         public string nombre;
         public string cargo;
-        private int sueldo;
+        public int sueldo;
 
         // Método
         private int calculoSueldo(string cargoPersona)

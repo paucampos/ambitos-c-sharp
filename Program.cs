@@ -15,6 +15,7 @@ namespace Ambitos
             objetoPersona.nombre = "Brandon";
             objetoPersona.cargo = "Analista";
             objetoPersona.edad = 27;
+            objetoPersona.sueldo = 0;
         }
     }
 }
