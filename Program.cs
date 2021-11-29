@@ -10,6 +10,11 @@ namespace Ambitos
     {
         static void Main(string[] args)
         {
+            Persona objetoPersona = new Persona();
+            objetoPersona.rut = "10900099-3";
+            objetoPersona.nombre = "Brandon";
+            objetoPersona.cargo = "Analista";
+            objetoPersona.edad = 27;
         }
     }
 }
