@@ -16,6 +16,8 @@ namespace Ambitos
             objetoPersona.cargo = "Analista";
             objetoPersona.edad = 27;
             objetoPersona.sueldo = 0;
+            Console.WriteLine(objetoPersona.calculoSueldo(objetoPersona.cargo));
+            Console.Read();
         }
     }
 }

@@ -15,7 +15,7 @@ namespace Ambitos
         public int sueldo;
 
         // Método
-        private int calculoSueldo(string cargoPersona)
+        public int calculoSueldo(string cargoPersona)
         {
             if (cargoPersona == "Analista")
             {
